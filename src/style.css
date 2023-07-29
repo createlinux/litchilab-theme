@@ -40,6 +40,7 @@ h5 {
 
 .ant-input {
     font-size: 16px;
+    padding: 5px 13px;
 }
 
 
@@ -68,10 +69,13 @@ h5 {
 .ant-btn{
     font-size:14px;
 }
-:where(.css-dev-only-do-not-override-eq3tly).ant-btn.ant-btn-round{
+:where(.css-dev-only-do-not-override-eq3tly).ant-btn.ant-btn-round,:where(.css-dev-only-do-not-override-v37f9b).ant-btn.ant-btn-round{
     padding-inline-start: 32px !important;
     padding-inline-end: 32px !important;
     padding-top: 8px;
     padding-bottom: 8px;
     height:auto;
+}
+:where(.css-dev-only-do-not-override-eq3tly).ant-form-item .ant-form-item-label >label{
+    font-size:13px;
 }
