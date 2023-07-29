@@ -34,37 +34,14 @@ h5 {
 .ant-btn.circle {
     border-radius: 100px;
 }
-
-.ant-btn {
-    padding: 10px 32px;
-    line-height: initial;
-    transition: all ease-in-out .1s;
-    letter-spacing: 1px;
-    height: auto;
-}
-
-.ant-btn.ant-btn-lg {
-    padding: 13px 35px;
-}
-
-.ant-btn.ant-btn-sm {
-    padding: 4px 15px;
-}
-
-.ant-modal-confirm-btns .ant-btn {
-    padding: 4px 15px;
-}
-
-input.circle {
-    border-radius: 50px;
-    height: 38px;
-    line-height: 38px;
-    padding-left: 15px;
+.ant-input.circle{
+    border-radius: 100px;
 }
 
 .ant-input {
     font-size: 16px;
 }
+
 
 .uk-text-primary {
     color: #167dff !important;
@@ -87,4 +64,14 @@ input.circle {
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
+}
+.ant-btn{
+    font-size:14px;
+}
+:where(.css-dev-only-do-not-override-eq3tly).ant-btn.ant-btn-round{
+    padding-inline-start: 32px !important;
+    padding-inline-end: 32px !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height:auto;
 }

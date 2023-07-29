@@ -1,15 +1,19 @@
 {
   "name": "litchilab-theme",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "litchilab-theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:createlinux/litchilab-theme.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.4.7"
+  }
 }
